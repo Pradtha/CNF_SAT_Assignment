@@ -303,3 +303,6 @@ else:
 			satList += ['false']
 		
 		outputFile.write(str(satList)+"\n")
+		
+inputFile.close()
+outputFile.close()
